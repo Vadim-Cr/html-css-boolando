@@ -96,7 +96,6 @@ display: inline-block;
     color: white;
     font-weight: bold;
     width: 40px;
-    margin right: 5px;
     padding: 5px;
 }
 
@@ -109,3 +108,29 @@ display: inline-block;
     padding: 5px;
 }
 /* qui finisce la parte delle label sconto e sostenibilità */
+
+/* Qui inizia il footer */
+footer{
+    background-color: #1A1A1A;
+    height: 80px;
+}
+
+.pie-pag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px auto 10px;
+}
+
+h4{
+    margin-top: 20px;
+    color: white;
+}
+#social{
+    color: white;
+}
+
+/* Qui finisce il footer */
