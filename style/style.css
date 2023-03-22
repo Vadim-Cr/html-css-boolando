@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header{
+    padding: 15px;
+    background-color: #FF6900;
+    background-image: url(/img/img/boolean-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 6% 54%;
+}
+
+nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    gap: 10px;
+    color: white;
+    font-weight: 500;
+
+}
+
+#logo{
+    width: 50px;
+    height: 20px;
+}
+
+#nav-icons{
+    display: flex;
+    color: white;
+    font-weight: 500;
+    gap: 10px;
+}
