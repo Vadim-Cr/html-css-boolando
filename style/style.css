@@ -6,6 +6,7 @@
 
 /* header */
 
+    /* header con il logo in abckground via css e vari aggiustamenti */
 header{
     padding: 15px;
     background-color: #FF6900;
@@ -14,14 +15,14 @@ header{
     background-repeat: no-repeat;
     background-size: 6% 54%;
 }
-
+    /* mini aggiustamenti per nav */
 nav{
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
-
+    /* reso ul in row e ho spaziato i contenuti */
 ul{
     display: flex;
     list-style-type: none;
@@ -31,15 +32,37 @@ ul{
     font-weight: 500;
 
 }
-
-#logo{
-    width: 50px;
-    height: 20px;
-}
+    /* correzioni per le icone "d'acquisto" */
 
 #nav-icons{
     display: flex;
     color: white;
     font-weight: 500;
     gap: 10px;
+}
+
+/* qui inizia il main */
+
+
+.row{
+    display: flex;
+    width: calc(100%/3);
+}
+
+.container{
+    display: flex;
+    width: 80%;
+
+    margin: 0 auto;
+
+}
+article{
+
+}
+img{
+    max-width: 100%;
+    max-height: auto;
+    padding: 5px;
+    margin-top: 30px;
+
 }
